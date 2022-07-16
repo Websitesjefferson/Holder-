@@ -35,6 +35,22 @@ function Pages(){
                <p>Ferramenta inédita para não deixar as emoções do mercado abalarem sua estratégia de investimento com rebalanciamento voçê poderá atribuir uma nota ou porcetagem ideal cada classe e ativo.</p>
             </article>
         </nav>
+
+        <div className='invest'>
+         <h1>VALOR DO INVESTIMENTO</h1>
+           
+           <article>
+            <div></div>
+           
+           <button>20 % OFF</button>
+
+
+
+
+                
+           </article>
+        
+        </div>
            
         </div>
     )
