@@ -1,0 +1,40 @@
+.conteiner div {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+     font-weight: normal;
+    font-size: clamp(1.2rem, 1.2rem + 1vw, 2rem);
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    color: #000
+}
+  
+.serviços{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+
+}
+article div{
+    max-width: 100%;
+}
+article img{
+    width: 10rem;
+    height: 10rem;
+}
+article h2{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-size: clamp(1.5rem, 1.5rem + 20vw, 1.6rem);
+    text-align: center;
+    margin-top: 2rem;
+    color: rgb(138, 136, 136);;
+    
+}
+article p{
+    
+    margin-top: 2rem;
+    width: 20rem;
+    font-size: clamp(1.2rem, 1.4rem + 1vw, 1.4rem);
+    color: rgb(170, 167, 167);;
+    
+}

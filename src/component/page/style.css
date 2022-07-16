@@ -1,0 +1,107 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+main .container {
+    width: 100rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5rem;
+
+}
+
+main .col-1 {
+    background-color: rgb(250, 147, 83);
+    width: clamp(30rem, 30rem + 20vw, 50rem);
+    height: 45rem;
+    display: flex;
+    border-radius: 1rem;
+    clip-path: polygon(0 1%, 83% 0, 100% 100%, 0% 100%);
+}
+
+main img {
+    width: clamp(10rem, 15rem + 15vw, 30rem);
+    margin-left: 5rem;
+
+
+
+}
+
+main .col-2 {
+    width: 37rem;
+
+
+}
+
+.col-2 h2 {
+    margin-right: 20rem;
+    font-weight: normal;
+    width: clamp(10rem, 15rem + 20vw, 30rem);
+    font-size: clamp(1.5rem, 1.5rem + 20vw, 3rem);
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    color: rgb(201, 200, 200);
+}
+
+.col-2 p {
+ 
+    font-weight: normal;
+    margin-top: 2rem;
+    font-family: 'Edu QLD Beginner', cursive;
+    font-size: clamp(1.4rem, 1.4rem + 1vw, 2.5rem);
+}
+section{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+.col-3{
+    margin-top: 10rem;
+    width: 50rem;
+}
+.col-3 h2 {
+    margin-right: 20rem;
+    font-weight: normal;
+    width: clamp(10rem, 15rem + 20vw, 30rem);
+    font-size: clamp(1.5rem, 1.5rem + 20vw, 3rem);
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    color: rgb(201, 200, 200);
+}
+.col-3 p {
+    font-weight: normal;
+    margin-top: 2rem;
+    max-width: 30rem;
+    font-family: 'Edu QLD Beginner', cursive;
+    font-size: clamp(1.4rem, 1.4rem + 1vw, 3rem);
+}
+
+ .col-4{
+    width: 30rem;
+    margin-top: 5rem;
+}
+.col-4 img{
+   width: 10rem;
+   left: 0;
+}
+.button{
+    display: flex;
+    margin-top: 5rem;
+}
+.button input{
+    border: none;
+    padding: clamp(.5rem, 0rem + 1vw, 1.5rem);
+    width: 17rem;
+    font-size: clamp(.7rem, .8rem + 1vw, 1.4rem);
+    border-radius: .8rem;
+    font-weight: 800;
+    background-color: rgb(250 95 1);
+    color: #ffffff;
+    margin: auto;
+}
+
