@@ -2,6 +2,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 
 
 }
@@ -18,11 +19,13 @@ main .container {
 
 main .col-1 {
     background-color: rgb(250, 147, 83);
-    width: clamp(30rem, 30rem + 20vw, 50rem);
+    width: clamp(15rem, 25rem + 20vw, 50rem);
+    max-width: 100%;
     height: 45rem;
     display: flex;
     border-radius: 1rem;
     clip-path: polygon(0 1%, 83% 0, 100% 100%, 0% 100%);
+    
 }
 
 main img {
@@ -34,7 +37,8 @@ main img {
 }
 
 main .col-2 {
-    width: 37rem;
+   max-width: clamp(15rem, 20rem + 20vw, 37rem);
+   
 
 
 }
@@ -43,7 +47,7 @@ main .col-2 {
     margin-right: 20rem;
     font-weight: normal;
     width: clamp(10rem, 15rem + 20vw, 30rem);
-    font-size: clamp(1.5rem, 1.5rem + 20vw, 3rem);
+    font-size: clamp(1.3rem, 1.5rem + 20vw, 3rem);
     font-family: 'Edu VIC WA NT Beginner', cursive;
     color: rgb(201, 200, 200);
 }
@@ -62,8 +66,14 @@ section{
     justify-content: center;
     }
 .col-3{
+    
     margin-top: 10rem;
-    width: 50rem;
+    width: clamp(15rem, 25rem + 10vw,50rem);
+}
+.col-3 h2 p{
+    
+    display: flex;
+    flex-direction: column;
 }
 .col-3 h2 {
     margin-right: 20rem;

@@ -3,7 +3,7 @@
  
  function Barra(){
     return(
-        <header className="Barra-inicia">
+        <header className="Barra-inicial">
         
         <div className="container">
          <img  src="/logo.svg" alt="" />

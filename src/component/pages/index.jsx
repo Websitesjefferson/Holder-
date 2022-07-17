@@ -1,16 +1,18 @@
 import logocon from '../Imagens/vector60-6907-01.jpg'
 import Logoinv from '../Imagens/8432.jpg';
-import {GiFullPizza} from 'react-icons/Gi';
 
-import './style.css'
+import { RiAlertLine } from 'react-icons/Ri';
 
-function Pages(){
-    return(
-        <div className='conteiner' >
-           <div>
+
+import './cards.css'
+
+function Pages() {
+   return (
+      <div className='conteiner' >
+         <div>
             <h2>Funsionalidade Holder+ PREMIUM</h2>
-           </div> 
-           
+         </div>
+
          <nav className="serviços">
             <article>
                <div><img src={logocon} alt="Controle" /></div>
@@ -28,32 +30,101 @@ function Pages(){
             </article>
 
             <article>
-               <div><img src="/pizza2-1447860.svg" alt="" /></div>
+               <div><img src="/pizza2-1447860.svg" alt="Rebalanciamento" /></div>
 
                <h2>REBALANCIAMENTO</h2>
 
                <p>Ferramenta inédita para não deixar as emoções do mercado abalarem sua estratégia de investimento com rebalanciamento voçê poderá atribuir uma nota ou porcetagem ideal cada classe e ativo.</p>
             </article>
-        </nav>
+         </nav>
+                 
+         <footer className='conteine'>
+          <div><h2>VALOR DO INVESTIMENTO</h2></div> 
+          
+          <div id="cards">
+            
+            <nav className='card'>
+               <h6></h6>
 
-        <div className='invest'>
-         <h1>VALOR DO INVESTIMENTO</h1>
-           
-           <article>
-            <div></div>
-           
-           <button>20 % OFF</button>
+               <button ><span> 20 % OFF</span> </button>
 
+               <p>De <strong>R$143.80</strong> por 12x de</p>
 
+               <span className='span'><dl>R$</dl>   <strong>9</strong>.78</span> 
 
+               <p>ou R$114,24 a vista</p>
 
-                
-           </article>
-        
-        </div>
-           
-        </div>
-    )
+               <button className='cardsbutton'> QUERO MEU PLANO AGORA</button>
+
+               <h5></h5>
+
+               <p className='texto'><RiAlertLine/> Esse valor vai ate 15/07 23:59</p>
+
+               <ul className="timehora">
+                  <span> 01</span> D :
+                  <span> 05</span> H :
+                  <span> 28</span> M :
+                  <span> 40</span> S 
+               </ul>
+
+            </nav>
+
+            <nav  className='card'>
+               <h6></h6>
+
+               <button className='cardbutton'><span> 20 % OFF |</span>   <p>MELHOR <br />  OFERTA</p>  </button>
+
+               <p>De <strong>R$143.80</strong> por 12x de</p>
+
+              <span className='span'><dl>R$</dl>   <strong>16</strong>.72</span> 
+
+               <p>ou R$114,24 a vista</p>
+
+               <button className='cardsbutton' >QUERO MEU PLANO AGORA</button>
+
+               <h5></h5>
+
+               <p className='texto'><RiAlertLine/> Esse valor vai ate 15/07 23:59</p>
+
+               <ul className="timehora">
+                  <span> 01</span> D :
+                  <span> 05</span> H :
+                  <span> 28</span> M :
+                  <span> 40</span> S 
+               </ul>
+
+            </nav>
+
+            <nav  className='card'>
+               <h6></h6>
+
+               <button ><span>20 % OFF</span> </button>
+
+               <p>De <strong>R$143.80</strong> por 12x de</p>
+
+               <span className='span'><dl>R$</dl>   <strong>9</strong>.78</span> 
+
+               <p>ou R$114,24 a vista</p>
+
+               <button className='cardsbutton'>QUERO MEU PLANO AGORA</button>
+
+               <h5></h5>
+
+               <p className='texto'><RiAlertLine />Esse valor vai ate 15/07 23:59</p>
+
+               <ul className="timehora">
+                  <span> 01</span> D :
+                  <span> 05</span> H :
+                  <span> 28</span> M :
+                  <span> 40</span> S 
+               </ul>
+
+            </nav>
+
+         </div>
+        </footer>
+      </div>
+   )
 
 }
 export default Pages
