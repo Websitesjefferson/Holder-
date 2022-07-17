@@ -1,0 +1,107 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 33rem;
+}
+.footer h1{
+    font-size: clamp(1.5rem, 2rem + 20vw, 3.5rem);
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    color: rgb(138, 136, 136);
+    margin: auto;
+}
+.footer .contein{
+    background-color: #420e7f;
+    height: 52rem;
+    margin-top: 5rem;
+}
+
+.contein h3{
+   color: #ffffff;
+   font-size: 1.8rem;
+   margin-top: 2rem;
+}
+.contein .cardn{
+    
+    border-radius: 1rem 1rem 0 0 ;
+    width: 28rem;
+    height: 43rem;
+    background-color:  rgb(255 105 11);
+}
+.contein .conteinercardn{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+    margin-top: 5rem;
+}
+.conteinercardn .cardn p{
+    text-align: start;
+    margin-top: 2.5rem;
+    padding-inline: 1.3rem;
+}
+.conteinercardn .cardn p span{
+    margin-inline: .8rem;
+    color: rgb(255, 215, 0);
+    font-size: 24px;
+}
+.conteinercardn .cardn h4{
+  font-size: 2.2rem;
+  color: #420e7f;
+  margin-top: 2rem;
+  text-align: start;
+  padding-inline: 2rem;
+}
+.conteinercardn .cardn h6{
+    margin-top: 2rem;
+    padding-inline: 2rem;
+    font-size: 1.3rem;
+    text-align: start;
+   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}
+.link{
+    margin-block: 15rem;
+}
+
+.link a{
+    
+    padding: 2rem  clamp(.5rem, 0rem + 10vw, 6rem) ;
+    border: none;
+    text-decoration: none;
+    transition: 400ms;
+    font-size: clamp(.7rem, .8rem + 1vw, 1.4rem);
+    border-radius: .8rem;
+    font-weight: 800;
+    background-color: rgb(250 95 1);
+    color: #ffffff;
+}
+a:hover{
+    background-color: rgb(245, 127, 53);
+}
+@media (max-width: 1100px) {
+    
+    .link{
+        margin-top: 60rem;
+    }
+}
+@media (max-width: 610px) {
+    
+    .link{
+        margin-top: 155rem;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .footer{
+        margin-top: 90rem;
+    }
+}
+@media (max-width: 600px){
+    .footer{
+        margin-top: 130rem;
+    }
+
+}

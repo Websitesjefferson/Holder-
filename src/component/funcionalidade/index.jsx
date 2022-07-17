@@ -1,13 +1,11 @@
-import Logo from "../Imagens/rentabilidade.png"
-import Logoreba from "../Imagens/rebalanciamento.png"
-import Logopatri from "../Imagens/patrimonio.png"
-import Logomode from "../Imagens/modelagem.png"
+
+import Logomode from "../Imagens/Captura de tela 2022-07-17 172402.png"
 import "./style.css"
 
 function Page(){
     return(
         <div>
-        <main>
+        <main className="main">
             <div className="container">
             <div className="col-1">
                 <img  src="/COMPRIMIDO.svg" alt="" />
@@ -26,7 +24,7 @@ function Page(){
             </div>
         </main>
         
-        <section>
+        <section className="section">
             
             
             <div className="col-3">
@@ -36,15 +34,15 @@ function Page(){
         
          <div className="col-4">
         
-            <img src={Logo} alt="" />
-            <img src={Logoreba} alt="" />
-            <img src={Logopatri} alt="" />
-            <img src={Logomode} alt="" />
+          
+             <img className="img" src={Logomode} alt="" />
          </div>
             
         </section>
           <div className="button">
-          <input className="input" type="button" value="ASSINE JÁ" />
+           
+            <a className="input" href="#cards">ASSINE JÁ</a>
+       
           </div>
 
           

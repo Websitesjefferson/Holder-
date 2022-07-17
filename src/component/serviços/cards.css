@@ -54,7 +54,7 @@ h1{
  
     justify-content: center;
     color: rgb(223, 127, 68);
-    font-size: clamp(.8rem, 1.0rem + 1vw, 2.5rem);
+    font-size: clamp(.8rem, .9rem + 1vw, 2.5rem);
     
 }
 #cards{
@@ -70,6 +70,7 @@ h1{
     background-color: aliceblue;
     text-align: center;
     border-radius: 2rem 2rem 0rem 0rem;
+    transition: 300ms;
     
    
 }
@@ -85,15 +86,18 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
     display: block;
-   
+    border: none;
+   background-color: rgb(250, 96, 0);
     margin-top: -1.5rem;
     margin-bottom: 1rem;
     font-size: 1.0rem;
     padding: .1rem 2rem;
     border-radius: 15rem;
+    color: #ffffff;
 }
 .card button span{
     font-size: 1.8rem;
+    
 }
 .card .cardbutton{
     background-color: #fff;
@@ -101,6 +105,7 @@ h1{
     padding: 0 1rem;
     display: flex;
     align-items: center;
+    font-weight: 800;
     
     
 }
@@ -131,7 +136,12 @@ h1{
     padding: 1rem 5rem;
     margin-bottom: 2rem;
     border-radius: 1rem;
+    border: none;
     font-size: 1.2rem;
+    background-color: rgb(236, 91, 0);
+}
+.cardsbutton:hover{
+    background-color: rgb(250, 141, 73);
 }
 .card h5{
     width: 7rem;
@@ -139,8 +149,10 @@ h1{
     border-top: .1rem solid  green;
 }
 .card .texto{
-    margin-left: 3rem;
     margin-top: 2rem;
+}
+.card .texto + .texto{
+    margin-left: 3rem;
     font-size: 1.7rem;
     display: flex;
     align-items: center;
@@ -150,11 +162,22 @@ h1{
 .card ul{
     margin-top: 1rem;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.8rem;
+    font-size: clamp(1.0rem, 1.0rem + 20vw,  1.8rem);
 }
 .card ul span{
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
 }
 .card dl{
     margin-right: 1rem;
+}
+.card:hover{
+    transform: scale(1.1);
+    background-color: aqua;
+}
+@media (max-width: 900px){
+   .card{
+    margin-top: 5rem;
+   
+   }
 }

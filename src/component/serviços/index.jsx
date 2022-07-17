@@ -8,7 +8,7 @@ import './cards.css'
 
 function Pages() {
    return (
-      <div className='conteiner' >
+      <header className='conteiner' >
          <div>
             <h2>Funsionalidade Holder+ PREMIUM</h2>
          </div>
@@ -38,7 +38,7 @@ function Pages() {
             </article>
          </nav>
                  
-         <footer className='conteine'>
+         <section className='conteine'>
           <div><h2>VALOR DO INVESTIMENTO</h2></div> 
           
           <div id="cards">
@@ -122,8 +122,8 @@ function Pages() {
             </nav>
 
          </div>
-        </footer>
-      </div>
+        </section>
+      </header>
    )
 
 }

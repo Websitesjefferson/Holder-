@@ -1,6 +1,8 @@
 import Barra from "./component/Barra-inicial"
-import Page from "./component/page"
-import Pages from "./component/pages"
+import Page from "./component/funcionalidade"
+import Pages from "./component/serviços"
+import Coment from "./component/comentario"
+import Foote from "./component/faq"
 function App() {
   
 
@@ -9,6 +11,8 @@ function App() {
       <Barra />
       <Page />
       <Pages />
+      <Coment />
+      <Foote />
     </div>
   )
 }

@@ -15,7 +15,7 @@
           <span> 40</span> S :
           </div> 
 
-          <button>ASSINE AGORA</button>
+          <a href="#cards">ASSINE AGORA</a> 
      </div>   
      </header>
     )
