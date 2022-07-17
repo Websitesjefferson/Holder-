@@ -26,7 +26,7 @@ function Pages() {
 
                <h2>PATRIMÔNIO CONSOLIDADO</h2>
 
-               <p>Tenha todod seus investimentos consolidado em uma só carteira. somos a plataforma que oferece o maio leque de aplicação finaceira de mercado!</p>
+               <p>Tenha todos seus investimentos consolidado em uma só carteira. somos a plataforma que oferece o maio leque de aplicação financeira de mercado!</p>
             </article>
 
             <article>
@@ -34,7 +34,7 @@ function Pages() {
 
                <h2>REBALANCIAMENTO</h2>
 
-               <p>Ferramenta inédita para não deixar as emoções do mercado abalarem sua estratégia de investimento com rebalanciamento voçê poderá atribuir uma nota ou porcetagem ideal cada classe e ativo.</p>
+               <p>Ferramenta inédita para não deixar as emoções do mercado abalarem sua estratégia de investimento com rebalanceamento você poderá atribuir uma nota ou porcentagem ideal cada classe e ativo.</p>
             </article>
          </nav>
                  
