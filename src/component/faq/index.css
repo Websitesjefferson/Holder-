@@ -1,24 +1,25 @@
-.mai {
+.content {
 
     width: clamp(15rem, 20rem + 30vw, 50rem);
     margin: auto;
     background-color: black;
+    margin-bottom: 10rem;
 }
 
-.mai h1 {
+.content h1 {
     font-size: clamp(2rem, 2.5rem + 1vw, 5rem);
     color: rgb(250 95 1);
     padding-inline: 2rem;
 }
 
-.mai h4 {
+.content h4 {
     margin-top: 2rem;
     font-size: clamp(1rem, 1.2rem + 2vw, 2.5rem);
     color: #ffffff;
     padding-inline: 2rem;
 }
 
-.mai p {
+.content p {
     margin-top: 1rem;
     font-size: 1.9rem;
     color: #ffffff;
@@ -28,22 +29,23 @@
 footer div {
     display: flex;
     justify-content: center;
-    margin-block: 7rem;
+    margin-block: -1rem;
     font-size: 2.5rem;
 }
 
-.conteinerduv {
+.conteinerinput {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-inline: 2rem;
+    margin-top: 10rem;
 
 
 
 
 }
 
-.conteinerduv div {
+.conteinerinput div {
     align-items: center;
     width: clamp(15rem, 19rem + 30vw, 80rem);
     height: 3rem;
@@ -58,6 +60,6 @@ footer div {
     border-radius: 1rem 0 0 0;
     transition: 400ms;
 }
-.conteinerduv div:hover{
+.conteinerinput div:hover{
     background-color: rgb(243, 137, 72);
 }

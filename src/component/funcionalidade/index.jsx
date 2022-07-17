@@ -1,5 +1,5 @@
 
-import Logomode from "../Imagens/Captura de tela 2022-07-17 172402.png"
+import Logomode from "../Imagens/img.png"
 import "./style.css"
 
 function Page() {
@@ -8,7 +8,7 @@ function Page() {
             <main className="main">
                 <div className="container">
                     <div className="col-1">
-                        <img src="/COMPRIMIDO.svg" alt="" />
+                        <img src="/COMPRIMIDO.svg" alt="Computado com gráfico de investimento." />
                     </div>
 
                     <div className="col-2">
@@ -36,13 +36,13 @@ function Page() {
                 <div className="col-4">
 
 
-                    <img className="img" src={Logomode} alt="" />
+                    <img className="img" src={Logomode} alt="Foto de rebalanceamento." />
                 </div>
 
             </section>
             <div className="button">
 
-                <a className="input" href="#cards">ASSINE JÁ</a>
+                <a className="input" href="#conteine">ASSINE JÁ</a>
 
             </div>
 

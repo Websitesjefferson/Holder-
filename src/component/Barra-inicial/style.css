@@ -13,11 +13,12 @@ html{
 .Barra-inicial{
     display: flex;
     justify-content: center;
+    left: 0%;
     margin-top: 3.0rem;
     height: clamp(1.5rem, 3.0rem + 5vw, 6.0rem) ;
     background-color: rgb(86 34 147);
     color: #ffffff;
-    width: 100%;
+   max-width: 100%;
     
     
 }
@@ -26,6 +27,7 @@ html{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    
 }
 .Barra-inicial img{
     position: relative;

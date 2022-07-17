@@ -99,7 +99,10 @@
     object-fit: cover;
 
    
- } 
+ }
+ .col-4 img{
+   max-width: 100%;
+ }
  .button{
     display: flex;
     margin-top: 5rem;

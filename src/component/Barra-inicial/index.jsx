@@ -1,21 +1,39 @@
- import "./style.css"
+ import { useEffect } from "react"
+import { useState } from "react"
+import "./style.css"
 
  
  function Barra(){
+
+   const [totaltime, setTotaltime] = useState ( 60 * 60)
+   
+   
+   const minuto = Math.floor(totaltime / 60)
+   const seconds = totaltime % 60
+
+   useEffect(() => {
+      setTimeout(() => {
+         setTotaltime(totaltime - 1) 
+
+         if(totaltime <= 0){
+            
+         }
+      }, 1000)
+   }, [totaltime])
     return(
         <header className="Barra-inicial">
         
         <div className="container">
-         <img  src="/logo.svg" alt="" />
+         <img  src="/logo.svg" alt="Logo holder+" />
           
           <div className="timehora">
           <span> 01</span> D :
           <span> 05</span> H :
-          <span> 28</span> M :
-          <span> 40</span> S :
+          <span> {minuto.toString().padStart(2, "0")}</span> M :
+          <span> {seconds.toString().padStart(2, "0")}</span> S :
           </div> 
 
-          <a href="#cards">ASSINE AGORA</a> 
+          <a href="#conteine">ASSINE AGORA</a> 
      </div>   
      </header>
     )

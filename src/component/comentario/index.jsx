@@ -3,7 +3,7 @@ import "./index.css"
 function Coment() {
     return (
         
-        <header className="footer">
+        <header className="comenta">
             <h1>Veja o que as pessoas falam da Holder+</h1>
 
             <main className="contein">
@@ -82,7 +82,7 @@ function Coment() {
   
 
               
-               <div className="link"> <a href="#cards">ACESSE JÁ</a></div>
+               <div className="link"> <a href="#conteine">ACESSE JÁ</a></div>
 
 
 

@@ -2,11 +2,29 @@ import logocon from '../Imagens/vector60-6907-01.jpg'
 import Logoinv from '../Imagens/8432.jpg';
 
 import { RiAlertLine } from 'react-icons/Ri';
-
+import { useEffect } from "react"
+import { useState } from "react"
 
 import './cards.css'
 
+
 function Pages() {
+
+   const [totaltimes, setTotaltimes] = useState ( 60 * 60)
+   
+   
+   const minutos = Math.floor(totaltimes / 60)
+   const secondss = totaltimes % 60
+
+   useEffect(() => {
+      setTimeout(() => {
+         setTotaltimes(totaltimes - 1) 
+
+         if(totaltimes <= 0){
+            
+         }
+      }, 1000)
+   }, [totaltimes])
    return (
       <header className='conteiner' >
          <div>
@@ -22,7 +40,7 @@ function Pages() {
                <p>Diversos gráficos para lhe auxiliar no acompanhamento e gerenciamento da sua carteira patrimonial!</p>
             </article>
             <article>
-               <div><img src={Logoinv} alt="" /></div>
+               <div><img src={Logoinv} alt="Controle de investimento" /></div>
 
                <h2>PATRIMÔNIO CONSOLIDADO</h2>
 
@@ -38,7 +56,7 @@ function Pages() {
             </article>
          </nav>
                  
-         <section className='conteine'>
+         <section id='conteine'>
           <div><h2>VALOR DO INVESTIMENTO</h2></div> 
           
           <div id="cards">
@@ -63,8 +81,8 @@ function Pages() {
                <ul className="timehora">
                   <span> 01</span> D :
                   <span> 05</span> H :
-                  <span> 28</span> M :
-                  <span> 40</span> S 
+                  <span> {minutos.toString().padStart(2, "0")}</span> M :
+                  <span> {secondss.toString().padStart(2, "0")}</span> S 
                </ul>
 
             </nav>
@@ -89,8 +107,8 @@ function Pages() {
                <ul className="timehora">
                   <span> 01</span> D :
                   <span> 05</span> H :
-                  <span> 28</span> M :
-                  <span> 40</span> S 
+                  <span> {minutos.toString().padStart(2, "0")}</span> M :
+                  <span>{secondss.toString().padStart(2, "0")}</span> S 
                </ul>
 
             </nav>
@@ -115,8 +133,8 @@ function Pages() {
                <ul className="timehora">
                   <span> 01</span> D :
                   <span> 05</span> H :
-                  <span> 28</span> M :
-                  <span> 40</span> S 
+                  <span> {minutos.toString().padStart(2, "0")}</span> M :
+                  <span> {secondss.toString().padStart(2, "0")}</span> S 
                </ul>
 
             </nav>

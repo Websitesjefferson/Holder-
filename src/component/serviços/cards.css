@@ -24,7 +24,7 @@ article img{
 }
 article h2{
     font-family: 'Edu VIC WA NT Beginner', cursive;
-    font-size: clamp(1.5rem, 1.5rem + 20vw, 1.6rem);
+    font-size: clamp(1.0rem, 1.2rem + 10vw, 1.6rem);
     text-align: center;
     margin-top: 2rem;
     color: rgb(138, 136, 136);;
@@ -43,7 +43,7 @@ h1{
     position: relative;
     
 }
-.conteine{
+#conteine{
     height: 20rem;
     color: #fff;
     background-color: rgb(245, 196, 166);;

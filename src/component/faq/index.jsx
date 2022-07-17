@@ -4,7 +4,7 @@ function Foote() {
     return (
         <footer>
 
-            <main className="mai">
+            <main className="content">
 
                 <h1>7 DIAS SEM COMPROMISSO</h1>
 
@@ -23,7 +23,7 @@ function Foote() {
 
           <div> <h1>FAQ</h1></div>
 
-            <main className="conteinerduv">
+            <main className="conteinerinput">
                <div >Por que cobramos pelos serviços? </div>
                <div>Por que deveria contratar o plano premium?</div> 
                <div> Posso ter uma conta conjunta? [Duas ou mais pessoas acessando a mesma conta.]" </div>
