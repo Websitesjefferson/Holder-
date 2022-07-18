@@ -1,3 +1,6 @@
+
+
+
 import "./index.css"
 
 function Coment() {
@@ -11,7 +14,12 @@ function Coment() {
                     Veja o que os usuários da Holder+ acham da plataforma!
                     Experimente você também!
                 </h3>
+                
                 <div className="conteinercardn">
+                   
+                    
+                    
+                    
                     <nav className="cardn">
                         <p><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></p>
                         <h4>
@@ -25,6 +33,7 @@ function Coment() {
 
 
                     </nav>
+                   
                     <nav className="cardn">
                     <p><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></p>
                         <h4>
@@ -44,6 +53,7 @@ function Coment() {
                        
 
                     </nav>
+                    
                     <nav className="cardn">
                     <p><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></p>
                         <h4>
@@ -61,6 +71,7 @@ function Coment() {
                         
 
                     </nav>
+                 
                     <nav className="cardn">
                     <p><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></p>
                         <h4>
@@ -75,6 +86,7 @@ function Coment() {
 
 
                     </nav>
+                   
                 </div>
 
 
