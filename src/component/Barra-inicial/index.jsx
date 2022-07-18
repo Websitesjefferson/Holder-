@@ -3,7 +3,7 @@ import { useState } from "react"
 import "./style.css"
 
  
- function Barra(){
+ function Barra({acao}){
 
    const [totaltime, setTotaltime] = useState ( 60 * 60)
    
@@ -12,7 +12,8 @@ import "./style.css"
    const seconds = totaltime % 60
 
    useEffect(() => {
-      setTimeout(() => {
+  
+    setTimeout(() => {
          setTotaltime(totaltime - 1) 
 
          if(totaltime <= 0){
@@ -21,7 +22,10 @@ import "./style.css"
       }, 1000)
    }, [totaltime])
     return(
-        <header className="Barra-inicial">
+                 
+        
+        <aside className={acao ? 'ativacor' : ''}>
+         
         
         <div className="container">
          <img  src="/logo.svg" alt="Logo holder+" />
@@ -34,8 +38,11 @@ import "./style.css"
           </div> 
 
           <a href="#conteine">ASSINE AGORA</a> 
-     </div>   
-     </header>
+     </div>
+       
+   
+     
+    </aside>
     )
 
  }

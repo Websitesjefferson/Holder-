@@ -8,29 +8,38 @@
     font-size: 62.5%;
 }
 
-.Barra-inicial {
-    display: flex;
-    justify-content: center;
-    left: 0%;
-    margin-top: 3.0rem;
+aside {
+   
+   width: 100%;
+    margin-top: 1rem;
     height: clamp(1.5rem, 3.0rem + 5vw, 6.0rem);
     background-color: rgb(86 34 147);
     color: #ffffff;
-    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+     position: fixed;
+    align-items: center;
+   
 
 
 }
+.ativacor{
+   background-color:rgb(113, 70, 161);;
+    
+}
 
-.Barra-inicial .container {
-    width: 100rem;
+aside .container {
+   
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    gap: 20rem;
+    
+    
 
 }
 
-.Barra-inicial img {
-    position: relative;
+aside img {
+    
     max-width: clamp(5rem, 8rem + 5vw, 35rem);
     height: clamp(3rem, 5.0rem + 5vw, 8.5rem);
     background-color: aliceblue;
@@ -44,7 +53,7 @@
     font-weight: 800;
 }
 
-.Barra-inicial a {
+aside a {
     text-decoration: none;
     border: none;
     padding: clamp(.5rem, 0rem + 1vw, 1.5rem);
@@ -60,4 +69,22 @@
 
 a:hover {
     background-color: rgb(241, 148, 90);
+}
+@media (max-width: 840px){
+    aside .container{
+        display: flex;
+        gap: 10rem;
+    } 
+}
+@media (max-width: 600px){
+    aside .container{
+        display: flex;
+        gap: 5rem;
+    } 
+}
+@media (max-width: 460px){
+    aside .container{
+        display: flex;
+        gap: 0.5rem;
+    } 
 }

@@ -1,9 +1,9 @@
 
-
-
 import "./index.css"
 
 function Coment() {
+
+   
     return (
         
         <header className="comenta">
