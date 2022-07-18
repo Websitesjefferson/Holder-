@@ -1,48 +1,50 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
-html{
-    scroll-behavior: smooth;
-}
-:root{
+
+:root {
     font-size: 62.5%;
 }
 
-.Barra-inicial{
+.Barra-inicial {
     display: flex;
     justify-content: center;
     left: 0%;
     margin-top: 3.0rem;
-    height: clamp(1.5rem, 3.0rem + 5vw, 6.0rem) ;
+    height: clamp(1.5rem, 3.0rem + 5vw, 6.0rem);
     background-color: rgb(86 34 147);
     color: #ffffff;
-   max-width: 100%;
-    
-    
+    max-width: 100%;
+
+
 }
-.Barra-inicial .container{
+
+.Barra-inicial .container {
     width: 100rem;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
+
 }
-.Barra-inicial img{
+
+.Barra-inicial img {
     position: relative;
-    max-width: clamp(5rem, 8rem + 5vw, 35rem) ;
-    height: clamp(3rem, 5.0rem + 5vw, 8.5rem) ;
+    max-width: clamp(5rem, 8rem + 5vw, 35rem);
+    height: clamp(3rem, 5.0rem + 5vw, 8.5rem);
     background-color: aliceblue;
     border-radius: 20px;
 }
-.timehora{
-    
-    font-size: clamp(0.9rem, .7rem + 1vw, 2.0rem) ;
+
+.timehora {
+
+    font-size: clamp(0.9rem, .7rem + 1vw, 2.0rem);
     align-items: center;
     font-weight: 800;
 }
-.Barra-inicial a{
+
+.Barra-inicial a {
     text-decoration: none;
     border: none;
     padding: clamp(.5rem, 0rem + 1vw, 1.5rem);
@@ -53,9 +55,9 @@ html{
     color: #ffffff;
     font-weight: 800;
     transition: 400ms;
-    
-}
-a:hover{
-    background-color: rgb(241, 148, 90);
+
 }
 
+a:hover {
+    background-color: rgb(241, 148, 90);
+}

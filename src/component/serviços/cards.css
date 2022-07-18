@@ -1,11 +1,13 @@
 .conteiner div {
     display: flex;
-    justify-content: space-evenly;
+    padding-inline: 2rem;
     margin-top: 5rem;
      font-weight: normal;
     font-size: clamp(1.2rem, 1.2rem + 1vw, 2rem);
-    font-family: 'Edu VIC WA NT Beginner', cursive;
-    color: #000
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #000;
+    text-align: center;
+    
 }
   
 .serviços{
@@ -23,7 +25,7 @@ article img{
     height: 10rem;
 }
 article h2{
-    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: clamp(1.0rem, 1.2rem + 10vw, 1.6rem);
     text-align: center;
     margin-top: 2rem;
@@ -117,7 +119,7 @@ h1{
     display: flex;
     justify-content: center;
     font-weight: 800;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:  'Roboto Condensed', sans-serif;
     
 }
 .card dl{
@@ -180,4 +182,13 @@ h1{
     margin-top: 5rem;
    
    }
+}
+
+@media (max-width: 750px){
+    .serviços{
+        display: flex;
+        gap: 15rem;
+        
+    }
+
 }

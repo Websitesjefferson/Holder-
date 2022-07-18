@@ -3,20 +3,24 @@
     flex-direction: column;
     text-align: center;
     margin-top: 33rem;
+    
 }
 .comenta h1{
     font-size: clamp(1.0rem, 1.5rem + 20vw, 3.5rem);
-    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
     color: rgb(138, 136, 136);
     margin: auto;
+    padding-inline: 2rem;
 }
 .comenta .contein{
     background-color: #420e7f;
     height: 52rem;
     margin-top: 5rem;
+    padding-inline: 2rem;
 }
 
 .contein h3{
+    padding-inline: 2rem;
    color: #ffffff;
    font-size: clamp(1rem, 1.3rem + 1vw, 1.8rem);
    margin-top: 2rem;
@@ -57,8 +61,8 @@
     padding-inline: 2rem;
     font-size: 1.3rem;
     text-align: start;
-   
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
     color: #ffffff;
 }
 .link{
@@ -95,12 +99,12 @@ a:hover{
 
 @media (max-width: 900px) {
 
-    .footer{
+    .comenta{
         margin-top: 90rem;
     }
 }
 @media (max-width: 600px){
-    .footer{
+    .comenta{
         margin-top: 130rem;
     }
 
