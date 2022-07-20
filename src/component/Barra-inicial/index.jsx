@@ -34,7 +34,7 @@ import "./style.css"
           <span> 01</span> D :
           <span> 05</span> H :
           <span> {minuto.toString().padStart(2, "0")}</span> M :
-          <span> {seconds.toString().padStart(2, "0")}</span> S :
+          <span> {seconds.toString().padStart(2, "0")}</span> S 
           </div> 
 
           <a className="a" href="#conteine">ASSINE AGORA</a> 
