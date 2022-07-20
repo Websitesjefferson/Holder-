@@ -78,7 +78,7 @@ footer .textoh1 {
     bottom: .9rem;
     right: 1.0rem;
     list-style: none;
- 
+    z-index: 99;
     visibility: hidden;
     transform: translateX(100%);
     transition: 200ms;
