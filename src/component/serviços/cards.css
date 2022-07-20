@@ -61,7 +61,8 @@ h1{
     padding-inline: 2rem;
     justify-content: center;
     color: rgb(223, 127, 68);
-    font-size: clamp(.8rem, .9rem + 1vw, 2.5rem);
+    font-size: clamp(1rem, 1.6rem + 1vw, 2.5rem);
+    text-align: center;
 }
 #cards{
     display: flex;

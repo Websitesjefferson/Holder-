@@ -33,11 +33,12 @@ function Pages() {
    return (
       <div>
          <header className='conteiner' >
+            
             <div className='h2'>
                <h2>Funsionalidade Holder+ PREMIUM</h2>
             </div>
              
-             <main className='swiper'>
+             <div className='swiper'>
             <Swiper 
             modules={[Navigation, Pagination, Scrollbar, A11y]}
             spaceBetween={3}
@@ -111,14 +112,14 @@ function Pages() {
 
                
             </Swiper>
-            </main>
+            </div>
 
-            <section id='conteine'>
+            <div id='conteine'>
              <div className='texto-topo'>  <h2 >VALOR DO INVESTIMENTO</h2></div>
 
                <div id="cards">
 
-                  <nav className='card'>
+                  <div className='card'>
                      <h6></h6>
 
                      <button ><span> 20 % OFF</span> </button>
@@ -142,9 +143,9 @@ function Pages() {
                         <span> {secondss.toString().padStart(2, "0")}</span> S
                      </ul>
 
-                  </nav>
+                  </div>
 
-                  <nav className='card'>
+                  <div className='card'>
                      <h6></h6>
 
                      <button className='cardbutton'><span> 20 % OFF |</span>   <p>MELHOR <br />  OFERTA</p>  </button>
@@ -168,9 +169,9 @@ function Pages() {
                         <span>{secondss.toString().padStart(2, "0")}</span> S
                      </ul>
 
-                  </nav>
+                  </div>
 
-                  <nav className='card'>
+                  <div className='card'>
                      <h6></h6>
 
                      <button ><span>20 % OFF</span> </button>
@@ -194,10 +195,10 @@ function Pages() {
                         <span> {secondss.toString().padStart(2, "0")}</span> S
                      </ul>
 
-                  </nav>
+                  </div>
 
                </div>
-            </section>
+            </div>
          </header>
 
       </div>

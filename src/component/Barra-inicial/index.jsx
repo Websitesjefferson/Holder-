@@ -27,8 +27,8 @@ import "./style.css"
         <aside className={acao ? 'ativacor' : ''}>
          
         
-        <div className="container">
-         <img  src="/logo.svg" alt="Logo holder+" />
+        <div id="container">
+        <a href="#backtopbutton"><img  src="/logo.svg" alt="Logo holder+" /></a> 
           
           <div className="timehora">
           <span> 01</span> D :
@@ -37,9 +37,10 @@ import "./style.css"
           <span> {seconds.toString().padStart(2, "0")}</span> S :
           </div> 
 
-          <a href="#conteine">ASSINE AGORA</a> 
+          <a className="a" href="#conteine">ASSINE AGORA</a> 
      </div>
        
+    
    
      
     </aside>

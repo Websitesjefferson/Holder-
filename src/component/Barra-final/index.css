@@ -10,6 +10,7 @@
     font-size: clamp(2rem, 2.5rem + 1vw, 5rem);
     color: rgb(250 95 1);
     padding-inline: 2rem;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .content h4 {
@@ -17,6 +18,7 @@
     font-size: clamp(1rem, 1.2rem + 2vw, 2.5rem);
     color: #ffffff;
     padding-inline: 2rem;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .content p {
@@ -24,13 +26,15 @@
     font-size: 1.9rem;
     color: #ffffff;
     padding-inline: 2rem;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
-footer div {
+footer .textoh1 {
     display: flex;
     justify-content: center;
     margin-block: -1rem;
     font-size: 2.5rem;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .conteinerinput {
@@ -38,28 +42,57 @@ footer div {
     flex-direction: column;
     align-items: center;
     padding-inline: 2rem;
-    margin-top: 10rem;
-
+    margin-block: 10rem;
+    
 
 
 
 }
 
-.conteinerinput div {
-    align-items: center;
+.conteinerinput .a {
+    font-family: 'Roboto Condensed', sans-serif;
     width: clamp(15rem, 19rem + 30vw, 80rem);
     height: 3rem;
-    margin-top: 2rem;
+    display: flex;
+    align-items: center;
     border: none;
+    margin-top: 0.7rem;
+    text-decoration: none;
+    
 
     color: #ffffff;
     background-color: rgb(250 95 1);
     padding-inline: 1rem;
     font-size: clamp(.8rem, .9rem + 1vw, 1.5rem);
-    font-weight: 800;
+    font-weight: normal;
     border-radius: 1rem 0 0 0;
     transition: 400ms;
+    
 }
-.conteinerinput div:hover{
+.conteinerinput .a:hover{
     background-color: rgb(243, 137, 72);
 }
+
+.scrollstart{
+    position: fixed;
+    bottom: .9rem;
+    right: 1.0rem;
+    list-style: none;
+ 
+    visibility: hidden;
+    transform: translateX(100%);
+    transition: 200ms;
+    font-size: 2.5rem;
+    
+ 
+ }
+ #button-show {
+    
+    visibility: visible;
+    transform: translateX(0);
+    
+    
+ 
+ 
+ }
+

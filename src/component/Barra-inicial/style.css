@@ -19,16 +19,17 @@ aside {
     justify-content: space-around;
      position: fixed;
     align-items: center;
+    z-index: 99;
    
 
 
 }
 .ativacor{
-   background-color:rgb(113, 70, 161);;
+   background-color:rgb(72, 5, 150);;
     
 }
 
-aside .container {
+aside #container {
    
     display: flex;
     align-items: center;
@@ -51,9 +52,10 @@ aside img {
     font-size: clamp(0.9rem, .7rem + 1vw, 2.0rem);
     align-items: center;
     font-weight: 800;
+   
 }
 
-aside a {
+aside .a {
     text-decoration: none;
     border: none;
     padding: clamp(.5rem, 0rem + 1vw, 1.5rem);
@@ -67,23 +69,25 @@ aside a {
 
 }
 
-a:hover {
+
+
+.a:hover {
     background-color: rgb(241, 148, 90);
 }
 @media (max-width: 840px){
-    aside .container{
+    aside #container{
         display: flex;
         gap: 10rem;
     } 
 }
 @media (max-width: 600px){
-    aside .container{
+    aside #container{
         display: flex;
         gap: 5rem;
     } 
 }
 @media (max-width: 460px){
-    aside .container{
+    aside #container{
         display: flex;
         gap: 0.5rem;
     } 
