@@ -4,6 +4,7 @@
     margin: auto;
     background-color: black;
     margin-bottom: 10rem;
+    padding-block: 2rem;
 }
 
 .content h1 {
@@ -82,8 +83,8 @@ footer .textoh1 {
     visibility: hidden;
     transform: translateX(100%);
     transition: 200ms;
-    font-size: 2.5rem;
-    
+    font-size: 5rem;
+
  
  }
  #button-show {
