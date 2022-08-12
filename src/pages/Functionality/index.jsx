@@ -1,15 +1,16 @@
 
 
-import Logomode from "../Imagens/img.png"
-import "./style.css"
+import { Button } from "../../componets/Button";
+import Logomode from "../images/img.png"
+import { Container } from "./styles";
 
-function Page() {
+export function Functionality() {
 
 
     return (
-        <main id="backtopbutton">
-            <div className="main">
-                <div className="container">
+        <Container>
+            <div id="start" className="column-1" >
+                <div>
                     <div className="col-1">
                         <img src="/COMPRIMIDO.svg" alt="Computado com gráfico de investimento." />
                     </div>
@@ -28,7 +29,7 @@ function Page() {
                 </div>
             </div>
             
-            <div className="section">
+            <div className="column-2">
 
 
                 <div className="col-3">
@@ -43,14 +44,13 @@ function Page() {
                 </div>
 
             </div>
-            <div className="button">
+            
+            
+            <div className="link"><Button title="ASSINE JÁ" /></div>   
 
-                <a className="input" href="#conteine">ASSINE JÁ</a>
-
-            </div>
+            
 
 
-        </main>
+        </Container>
     )
 }
-export default Page;

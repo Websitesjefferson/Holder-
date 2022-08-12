@@ -1,94 +1,82 @@
-* {
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-}
+ import styled from "styled-components"
 
-:root {
-    font-size: 62.5%;
-}
 
-aside {
-   
-   width: 100%;
+
+
+ export const Container = styled.header`
+ 
+    width: 100%;
     margin-top: 1rem;
-    height: clamp(1.5rem, 3.0rem + 5vw, 6.0rem);
+    height: clamp(1.5rem, 2.5rem + 5vw, 6.0rem);
     background-color: rgb(86 34 147);
     color: #ffffff;
+    
     display: flex;
     justify-content: space-around;
-     position: fixed;
+    position: fixed;
     align-items: center;
     z-index: 99;
+    padding-inline: 2rem;
    
-
-
-}
-.ativacor{
-   background-color:rgb(72, 5, 150);;
-    
-}
-
-aside #container {
+> main {
    
     display: flex;
     align-items: center;
     gap: 20rem;
-    
-    
-
 }
 
-aside img {
+> main img {
     
     max-width: clamp(5rem, 8rem + 5vw, 35rem);
-    height: clamp(3rem, 5.0rem + 5vw, 8.5rem);
     background-color: aliceblue;
-    border-radius: 20px;
+    border-radius: 10px;
+    padding: .8rem;
 }
 
-.timehora {
+>main div {
 
-    font-size: clamp(0.9rem, .7rem + 1vw, 2.0rem);
+    font-size: clamp(0.7rem, .5rem + 1vw, 2.0rem);
     align-items: center;
     font-weight: 800;
    
 }
-
-aside .a {
+> main a {
     text-decoration: none;
     border: none;
-    padding: clamp(.5rem, 0rem + 1vw, 1.5rem);
-    font-size: clamp(.7rem, .8rem + 1vw, 1.4rem);
+    padding: clamp(.1rem, .3rem + 1vw, 1.4rem);
+    font-size: clamp(.5rem, .6rem + 1vw, 1.5rem);
     border-radius: .8rem;
     font-weight: 800;
     background-color: rgb(250 95 1);
     color: #ffffff;
     font-weight: 800;
     transition: 400ms;
+    margin: auto;
+    
 
+:hover{
+    background-color: rgb(243, 137, 72);
+}
 }
 
 
-
-.a:hover {
-    background-color: rgb(241, 148, 90);
-}
 @media (max-width: 840px){
-    aside #container{
+     >main{
         display: flex;
         gap: 10rem;
     } 
 }
 @media (max-width: 600px){
-    aside #container{
+     >main{
         display: flex;
         gap: 5rem;
     } 
 }
 @media (max-width: 460px){
-    aside #container{
+     >main{
         display: flex;
-        gap: 0.5rem;
+        gap: 0.7rem;
     } 
+    
 }
+`

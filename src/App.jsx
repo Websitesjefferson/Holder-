@@ -1,11 +1,11 @@
-import Barra from "./component/Barra-inicial"
-import Page from "./component/funcionalidade"
-import Pages from "./component/serviços"
-import Coment from "./component/comentario"
-import Foote from "./component/Barra-final"
+import {Startbar} from "./pages/Startbar"
+import {Functionality} from "./pages/Functionality"
+import {Services} from "./pages/services"
+import {Comments} from "./pages/Comments"
+import {Finalslash} from "./pages/finalslash"
 
 import { useState, useEffect } from "react"
-
+ 
 
 function App() {
   
@@ -46,11 +46,11 @@ function App() {
 
   return (
     <div className="App">
-      <Barra acao={ativacor}/>
-      <Page  />
-      <Pages />
-      <Coment />
-      <Foote onscroll={ativascroll}/>
+      <Startbar acao={ativacor}/>
+      <Functionality  />
+      <Services />
+      <Comments />
+      <Finalslash onscroll={ativascroll}/>
     </div>
   )
 }

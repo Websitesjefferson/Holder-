@@ -1,20 +1,30 @@
-.content {
+import styled from "styled-components"
 
-    width: clamp(15rem, 20rem + 30vw, 50rem);
-    margin: auto;
-    background-color: black;
-    margin-bottom: 10rem;
-    padding-block: 2rem;
+export const Container = styled.footer`
+
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   
+
+.column-1{
+  background-color: black;   
+  width: clamp(15rem, 20rem + 30vw, 50rem); 
+  padding-block: 2rem;
+  margin-bottom: 10rem;
 }
 
-.content h1 {
+>.column-1 h1 {
     font-size: clamp(2rem, 2.5rem + 1vw, 5rem);
     color: rgb(250 95 1);
     padding-inline: 2rem;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-.content h4 {
+>.column-1 h4 {
     margin-top: 2rem;
     font-size: clamp(1rem, 1.2rem + 2vw, 2.5rem);
     color: #ffffff;
@@ -22,7 +32,7 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-.content p {
+>.column-1 p {
     margin-top: 1rem;
     font-size: 1.9rem;
     color: #ffffff;
@@ -30,11 +40,10 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-footer .textoh1 {
-    display: flex;
-    justify-content: center;
-    margin-block: -1rem;
-    font-size: 2.5rem;
+>h1 {
+    
+    margin-block: 1rem;
+    font-size: 6rem;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -44,13 +53,12 @@ footer .textoh1 {
     align-items: center;
     padding-inline: 2rem;
     margin-block: 10rem;
-    
-
-
-
+}
+.column{
+    margin-bottom: 10rem;
 }
 
-.conteinerinput .a {
+.column .a {
     font-family: 'Roboto Condensed', sans-serif;
     width: clamp(15rem, 19rem + 30vw, 80rem);
     height: 3rem;
@@ -64,7 +72,7 @@ footer .textoh1 {
     color: #ffffff;
     background-color: rgb(250 95 1);
     padding-inline: 1rem;
-    font-size: clamp(.8rem, .9rem + 1vw, 1.5rem);
+    font-size: clamp(.6rem, .7rem + 1vw, 1.5rem);
     font-weight: normal;
     border-radius: 1rem 0 0 0;
     transition: 400ms;
@@ -77,7 +85,7 @@ footer .textoh1 {
 .scrollstart{
     position: fixed;
     bottom: .9rem;
-    right: 1.0rem;
+    right: 5rem;
     list-style: none;
     z-index: 99;
     visibility: hidden;
@@ -96,4 +104,4 @@ footer .textoh1 {
  
  
  }
-
+`

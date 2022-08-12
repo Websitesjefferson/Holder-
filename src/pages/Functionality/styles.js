@@ -1,24 +1,26 @@
-.main {
+import styled from "styled-components"
+
+
+export const Container = styled.header`
+
+.column-1 {
     display: flex;
     justify-content: center;
     align-items: center;
     
-
-
 }
-
-.main .container {
+.column-1 div:nth-child(1) {
     width: 100rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
     gap: 6rem;
-    margin-top: 7.1rem;
+    margin-top: 3.5rem;
 
 }
 
-.main .col-1 {
+.column-1 .col-1 {
     background-color: rgb(250, 147, 83);
     max-width: clamp(15rem, 22rem + 20vw, 60rem);
     width: 100%;
@@ -31,20 +33,13 @@
    
     
 }
-
-.main img {
+ .column-1 img {
     width: clamp(10rem, 15rem + 15vw, 30rem);
     margin-left: 1rem;
-
-
-
 }
 
-.main .col-2 {
+.column-1 .col-2 {
    max-width: clamp(15rem, 20rem + 20vw, 37rem);
-   
-
-
 }
    
 .col-2 h2{
@@ -65,13 +60,13 @@
     font-family: 'Edu VIC WA NT Beginner', cursive;
     font-size: clamp(1.4rem, 1.4rem + 1vw, 2.5rem);
 }
-.section{
+.column-2 {
 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     }
-.col-3{
+.column-2  .col-3{
     
     margin-top: 10rem;
     width: clamp(15rem, 25rem + 10vw,50rem);
@@ -108,27 +103,22 @@
  .col-4 img{
    max-width: 100%;
  }
- .button{
+ .link{
     display: flex;
     margin-top: 5rem;
+    
 }
-.button .input{
-    border: none;
-    padding:1.5rem  clamp(1rem, 1.5rem + 10vw, 5rem);
-    text-decoration: none;
-    font-size: clamp(.7rem, .8rem + 1vw, 1.4rem);
-    border-radius: .8rem;
-    font-weight: 800;
-    background-color: rgb(250 95 1);
-    color: #ffffff;
-    margin: auto;
-    transition: 400ms;
-}
-.input:hover{
-    background-color: rgb(245, 133, 63);
-}
+
+
 @media (max-width: 833px){
    .col-2 h2{
     margin: initial;
    }
 }
+
+@media (max-width: 611px){
+   .col-3{
+    margin-bottom: 5rem;
+   }
+}
+`

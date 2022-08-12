@@ -1,14 +1,15 @@
-import "./index.css"
+
 import { MdNavigation} from 'react-icons/Md';
+import { Container } from './styles';
 
 
-function Foote({ onscroll }) {
+export function Finalslash({ onscroll }) {
     return (
-        <footer>
+        <Container>
             
 
 
-            <div className="content">
+            <div className='column-1'>
 
                 <h1>7 DIAS SEM COMPROMISSO</h1>
 
@@ -25,9 +26,9 @@ function Foote({ onscroll }) {
 
             </div>
 
-            <div className="textoh1"> <h1>FAQ</h1></div>
+             <h1>FAQ</h1>
 
-            <div className="conteinerinput">
+            <div className="column">
                 <a className="a" href="">Por que cobramos pelos serviços? </a>
                 <a className="a" href="">Por que deveria contratar o plano premium?</a>
                 <a className="a" href="">Posso ter uma conta conjunta? [Duas ou mais pessoas acessando a mesma conta.] </a>
@@ -38,13 +39,12 @@ function Foote({ onscroll }) {
             </div>
         
 
-                <a className="scrollstart" href="#backtopbutton" id={onscroll ? 'button-show' : ''}>
+                <a className="scrollstart" href="#start" id={onscroll ? 'button-show' : ''}>
                    <MdNavigation/>
                 </a>
 
             
 
-        </footer>
+        </Container>
     )
 }
-export default Foote

@@ -1,5 +1,5 @@
-import logocon from '../Imagens/vector60-6907-01.jpg'
-import Logoinv from '../Imagens/8432.jpg';
+import logocon from '../images/vector60-6907-01.jpg'
+import Logoinv from '../images/8432.jpg';
 import { RiAlertLine } from 'react-icons/Ri';
 
 import { useEffect } from "react"
@@ -8,12 +8,13 @@ import { useState } from "react"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import {Navigation, Pagination, Scrollbar, A11y} from 'swiper'
 
-import './cards.css'
+
 import 'swiper/css';
 import 'swiper/css/navigation';
+import { Container } from './styles';
 
 
-function Pages() {
+export function Services() {
 
    const [totaltimes, setTotaltimes] = useState(60 * 60)
 
@@ -31,14 +32,14 @@ function Pages() {
       }, 1000)
    }, [totaltimes])
    return (
-      <div>
-         <header className='conteiner' >
-            
-            <div className='h2'>
-               <h2>Funsionalidade Holder+ PREMIUM</h2>
-            </div>
+     
+         <Container >
              
-             <div className='swiper'>
+           
+               <h2>Funcionalidade Holder+ PREMIUM</h2>
+           
+             
+             <div className='columncards-1'>
             <Swiper 
             modules={[Navigation, Pagination, Scrollbar, A11y]}
             spaceBetween={3}
@@ -114,12 +115,12 @@ function Pages() {
             </Swiper>
             </div>
 
-            <div id='conteine'>
-             <div className='texto-topo'>  <h2 >VALOR DO INVESTIMENTO</h2></div>
+            <div id='containercards'>
+               <h2 >VALOR DO INVESTIMENTO</h2>
 
-               <div id="cards">
+               <div id="columncards-2">
 
-                  <div className='card'>
+                  <div className='cards'>
                      <h6></h6>
 
                      <button ><span> 20 % OFF</span> </button>
@@ -134,7 +135,7 @@ function Pages() {
 
                      <h5></h5>
 
-                     <p className='texto'><RiAlertLine /> Esse valor vai ate 15/07 23:59</p>
+                     <p className='text'><RiAlertLine /> Esse valor vai até: 15/07 23:59</p>
 
                      <ul className="timehora">
                         <span> 01</span> D :
@@ -145,7 +146,7 @@ function Pages() {
 
                   </div>
 
-                  <div className='card'>
+                  <div className='cards'>
                      <h6></h6>
 
                      <button className='cardbutton'><span> 20 % OFF |</span>   <p>MELHOR <br />  OFERTA</p>  </button>
@@ -160,7 +161,7 @@ function Pages() {
 
                      <h5></h5>
 
-                     <p className='texto'><RiAlertLine /> Esse valor vai ate 15/07 23:59</p>
+                     <p className='text'><RiAlertLine /> Esse valor vai até: 15/07 23:59</p>
 
                      <ul className="timehora">
                         <span> 01</span> D :
@@ -171,7 +172,7 @@ function Pages() {
 
                   </div>
 
-                  <div className='card'>
+                  <div className='cards'>
                      <h6></h6>
 
                      <button ><span>20 % OFF</span> </button>
@@ -186,7 +187,7 @@ function Pages() {
 
                      <h5></h5>
 
-                     <p className='texto'><RiAlertLine />Esse valor vai ate 15/07 23:59</p>
+                     <p className='text'><RiAlertLine />Esse valor vai até: 15/07 23:59</p>
 
                      <ul className="timehora">
                         <span> 01</span> D :
@@ -199,10 +200,10 @@ function Pages() {
 
                </div>
             </div>
-         </header>
+         
+         </Container>
 
-      </div>
+      
    )
 
 }
-export default Pages
