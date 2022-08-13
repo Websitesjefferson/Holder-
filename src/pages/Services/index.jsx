@@ -41,9 +41,9 @@ export function Services() {
              
              <div className='columncards-1'>
             <Swiper 
-            modules={[Navigation, Pagination, Scrollbar, A11y]}
-            spaceBetween={3}
-            slidesPerView={[3] [1]}
+            modules={[Navigation,  Scrollbar,]}
+            spaceBetween= {50}
+            slidesPerView= {1}
             navigation>
 
                <SwiperSlide>

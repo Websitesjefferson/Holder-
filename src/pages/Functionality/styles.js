@@ -65,11 +65,12 @@ export const Container = styled.header`
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
     }
 .column-2  .col-3{
     
     margin-top: 10rem;
-    width: clamp(15rem, 25rem + 10vw,50rem);
+    width: clamp(15rem, 25rem + 10vw,55rem);
 }
 .col-3 h2 p{
     
@@ -90,19 +91,18 @@ export const Container = styled.header`
     max-width: 30rem;
     font-family: 'Edu VIC WA NT Beginner', cursive;
     font-size: clamp(1.4rem, 1.4rem + 1vw, 3rem);
+    color: black;
 }
 
  .col-4 {
-    
-    max-width: 30rem;
-    margin-top: 0rem;
-    object-fit: cover;
+    padding-inline: 1rem;
+    width: 50rem;
+    margin-top: 2rem;
+}
+.col-4 iframe{
+    width: 100%;
+}
 
-   
- }
- .col-4 img{
-   max-width: 100%;
- }
  .link{
     display: flex;
     margin-top: 5rem;

@@ -1,7 +1,6 @@
 
 
 import { Button } from "../../componets/Button";
-import Logomode from "../images/img.png"
 import { Container } from "./styles";
 
 export function Functionality() {
@@ -40,7 +39,11 @@ export function Functionality() {
                 <div className="col-4">
 
 
-                    <img className="img" src={Logomode} alt="Foto de rebalanceamento." />
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ehCADrnG71w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    
+                </iframe>
+                    
+
                 </div>
 
             </div>

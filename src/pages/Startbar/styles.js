@@ -16,13 +16,14 @@
     position: fixed;
     align-items: center;
     z-index: 99;
-    padding-inline: 2rem;
+   
    
 > main {
    
     display: flex;
     align-items: center;
     gap: 20rem;
+    padding-inline: 1rem;
 }
 
 > main img {
@@ -35,7 +36,7 @@
 
 >main div {
 
-    font-size: clamp(0.7rem, .5rem + 1vw, 2.0rem);
+    font-size: clamp(0.7rem, .7rem + 1vw, 2.0rem);
     align-items: center;
     font-weight: 800;
    
