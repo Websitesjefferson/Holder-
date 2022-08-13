@@ -12,7 +12,7 @@ export default createGlobalStyle`
 }
 
 body{
-    background-color: #fff;
+    background-color: aliceblue;
 }
 html{
     scroll-behavior: smooth;

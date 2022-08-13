@@ -78,10 +78,11 @@ h1{
     color: #000;
     width: clamp(15rem, 20rem + 20vw, 30rem);
     height: 37rem;
-    background-color: aliceblue;
+    background-color: #ffffff;
     text-align: center;
     border-radius: 2rem 2rem 0rem 0rem;
     transition: 300ms;
+    border: 1px solid #000;
     
    
 }
