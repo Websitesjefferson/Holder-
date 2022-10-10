@@ -15,7 +15,7 @@ h2 {
   display: flex;
   justify-content: center;
   margin-top: 7rem;
-  
+
   
 }   
 .columncards-1 .swipercards{
@@ -25,6 +25,19 @@ h2 {
     
     align-items: center;
     margin: auto;
+}
+.embla {
+  overflow: hidden;
+  width: 100%;
+}
+.embla__container {
+  display: flex;
+  
+}
+.embla__slide {
+    flex: 0 0 30%;
+    
+
 }
 
 .swipercards img{

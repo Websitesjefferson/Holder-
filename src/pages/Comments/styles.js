@@ -16,10 +16,10 @@ export const Container = styled.section`
     background-color: #420e7f;
     height: 63rem;
     margin-top: 5rem;
-    padding-inline: 2rem;
+    padding-inline: 3.5rem;
 } 
 >main h1 {
-    font-size: clamp(1.0rem, 1.5rem + 20vw, 3.5rem);
+    font-size: clamp(1.5rem, 2.5rem + 20vw, 3.5rem);
     font-family: 'Roboto Condensed', sans-serif;
     color: rgb(138, 136, 136);
     
@@ -86,7 +86,7 @@ export const Container = styled.section`
     margin-top: 5rem;
     overflow-x: hidden;
     transition: 400ms;
-    padding-inline: 3rem;
+    padding-inline: 2rem;
 }
 
 .comments div p {

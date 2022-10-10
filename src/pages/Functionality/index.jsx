@@ -21,7 +21,7 @@ export function Functionality() {
                         </h2>
 
                         <p>
-                            Tenha acesso as melhores ferramentas do mercado: Rebalanciamento dos ativos, extratos completos das suas operações,
+                            Tenha acesso as melhores ferramentas do mercado: Rebalanceamento dos ativos, extratos completos das suas operações,
                             rentabilidade atualizada e MUITO mais!
                         </p>
                     </div>
@@ -39,7 +39,7 @@ export function Functionality() {
                 <div className="col-4">
 
 
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/ehCADrnG71w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ehCADrnG71w" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
                     
                 </iframe>
                     

@@ -41,7 +41,7 @@
     font-weight: 800;
    
 }
-> main a {
+> main .button {
     text-decoration: none;
     border: none;
     padding: clamp(.1rem, .3rem + 1vw, 1.4rem);

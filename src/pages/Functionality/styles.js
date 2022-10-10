@@ -108,6 +108,9 @@ export const Container = styled.header`
     margin-top: 5rem;
     
 }
+> iframe{
+    border: none;
+}
 
 
 @media (max-width: 833px){

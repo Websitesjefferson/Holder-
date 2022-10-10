@@ -39,9 +39,6 @@ export function Finalslash({ onscroll }) {
             </div>
         
 
-                <a className="scrollstart" href="#start" id={onscroll ? 'button-show' : ''}>
-                   <MdNavigation/>
-                </a>
 
             
 

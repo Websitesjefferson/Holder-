@@ -3,31 +3,32 @@ import { useState } from "react"
 import { Container } from "./styles"
 
  
-export function Startbar({acao}){
+export function Startbar(){
 
-   const [totaltime, setTotaltime] = useState ( 60 * 60)
+   const [time, setTime] = useState ( 60 * 60)
    
    
-   const minuto = Math.floor(totaltime / 60)
-   const seconds = totaltime % 60
+   const minuto = Math.floor(time / 60)
+   const seconds = time % 60
 
    useEffect(() => {
   
     setTimeout(() => {
-         setTotaltime(totaltime - 1) 
+         setTime(time - 1) 
 
-         if(totaltime <= 0){
+         if(time <= 0){
             
          }
       }, 1000)
-   }, [totaltime])
+   }, [time])
     return(
                  
         
         < Container >
          <main>
+            <a href="#start">
           <img  src="/logo.svg" alt="Logo holder+" />
-          
+           </a>
           <div >
           <span> 01</span> D :
           <span> 05</span> H :
@@ -35,7 +36,7 @@ export function Startbar({acao}){
           <span> {seconds.toString().padStart(2, "0")}</span> S 
           </div> 
 
-          <a href="#containercards">ASSINE AGORA</a> 
+          <a href="#containercards" className="button">ASSINE AGORA</a> 
 
           
         </main>

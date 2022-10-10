@@ -82,26 +82,4 @@ export const Container = styled.footer`
     background-color: rgb(243, 137, 72);
 }
 
-.scrollstart{
-    position: fixed;
-    bottom: .9rem;
-    right: 5rem;
-    list-style: none;
-    z-index: 99;
-    visibility: hidden;
-    transform: translateX(100%);
-    transition: 200ms;
-    font-size: 5rem;
-
- 
- }
- #button-show {
-    
-    visibility: visible;
-    transform: translateX(0);
-    
-    
- 
- 
- }
 `
